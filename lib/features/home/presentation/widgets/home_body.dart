@@ -1,3 +1,4 @@
+import 'package:arabic_iti/features/letters_learning/presentation/views/letters_learning_view.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -13,7 +14,11 @@ class HomeViewBody extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => const LettersLearningView(),
+              ));
+            },
             child: const Text('تعلم الحروف'),
           ),
           const Gap(20),
