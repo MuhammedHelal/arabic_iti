@@ -6,6 +6,16 @@ class LettersLearningView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const LettersLearningViewBody();
+    return Scaffold(
+      drawer: const Drawer(
+        child: Column(
+          children: [],
+        ),
+      ),
+      appBar: AppBar(
+        title: const Text('تعلم الحروف'),
+      ),
+      body: const LettersLearningViewBody(),
+    );
   }
 }

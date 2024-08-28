@@ -5,6 +5,8 @@ class LettersLearningViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Column(
+      children: [Text('تصميم الحروف المتعددة  ')],
+    );
   }
 }
