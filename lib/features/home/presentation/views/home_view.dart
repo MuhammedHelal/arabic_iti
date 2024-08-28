@@ -1,3 +1,4 @@
+import 'package:arabic_iti/features/home/presentation/widgets/home_body.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatelessWidget {
@@ -5,6 +6,8 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Scaffold(
+      body: HomeViewBody(),
+    );
   }
 }
