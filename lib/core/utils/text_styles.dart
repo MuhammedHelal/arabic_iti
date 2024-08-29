@@ -6,7 +6,13 @@ abstract class AppTextStyles {
     color: Colors.white,
     fontWeight: FontWeight.bold,
   );
-
+  static const TextStyle normal25WhiteHeight2WordSpacing2 = TextStyle(
+    fontSize: 25,
+    color: Colors.white,
+    fontWeight: FontWeight.normal,
+    height: 2,
+    wordSpacing: 2,
+  );
   static const TextStyle bold20 = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.bold,
