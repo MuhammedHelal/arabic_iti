@@ -1,6 +1,7 @@
 import 'package:arabic_iti/core/utils/text_styles.dart';
 import 'package:arabic_iti/features/letters_learning/presentation/widgets/arabic_alphabet_container.dart';
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class PractiseViewBody extends StatelessWidget {
   const PractiseViewBody({super.key});
@@ -50,7 +51,7 @@ class PractiseViewBody extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 10),
           child: ElevatedButton(
             onPressed: () {},
             child: const Text(
