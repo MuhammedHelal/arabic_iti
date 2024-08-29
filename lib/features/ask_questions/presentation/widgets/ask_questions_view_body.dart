@@ -2,7 +2,6 @@ import 'package:arabic_iti/core/utils/colors.dart';
 import 'package:arabic_iti/features/ask_questions/manager/ask_questions_cubit/ask_questions_cubit.dart';
 import 'package:arabic_iti/features/ask_questions/manager/ask_questions_cubit/ask_questions_state.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 
